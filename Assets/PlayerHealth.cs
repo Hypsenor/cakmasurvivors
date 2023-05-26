@@ -12,7 +12,6 @@ public class PlayerHealth : MonoBehaviour
     {
         healthBar.SetMaxHealth(maxHealth);
         currentHealth = maxHealth;
-        InvokeRepeating("TakeDamage", 1f, 1f);
     }
 
     public void UpdateHealth()
