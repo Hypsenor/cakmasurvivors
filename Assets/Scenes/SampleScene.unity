@@ -1466,7 +1466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  moveSpeed: 5
+  moveSpeed: 3
   attackRange: 3
   attackCooldown: 1
 --- !u!50 &536341504
@@ -1523,7 +1523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  moveSpeed: 5
+  moveSpeed: 3
   attackRange: 3
   attackCooldown: 1
 --- !u!50 &616551120
@@ -1969,9 +1969,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.5251511}
+  m_Offset: {x: 0.1795687, y: -0.5251511}
   serializedVersion: 2
-  m_Radius: 1.7703007
+  m_Radius: 1.282898
 --- !u!212 &1212680254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2090,7 +2090,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.75, y: 3.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2140,7 +2140,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9bc3eb226f68b644593e51bf51dbadd4, type: 3}
   m_Color: {r: 0.5, g: 0.06367925, b: 0.06367925, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2159,7 +2159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227352604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.39, y: -4.5, z: 0}
+  m_LocalPosition: {x: -4.3, y: -4.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3132,7 +3132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  moveSpeed: 5
+  moveSpeed: 3
   attackRange: 3
   attackCooldown: 1
 --- !u!50 &1920044009
